@@ -1,162 +1,119 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html lang="en-US">
 
 <head>
-    <meta charset="utf-8">
-    <title>
-        .:: Grupo JK ::.
-    </title>
-    <meta content="" name="description">
-    <meta content="" name="author">
-    <meta content="" name="keywords">
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <!-- Fynex v1.0 || ex nihilo || October 2019 -->
-    <!-- style start -->
-    <link href="css/plugins.css" media="all" rel="stylesheet" type="text/css">
-    <link href="css/style.css" media="all" rel="stylesheet" type="text/css"><!-- style end -->
-    <!-- google fonts start -->
-    <link
-        href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7COswald:300,400,700%7CBarlow+Condensed:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet" type="text/css"><!-- google fonts end -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>.:: Grupo JK ::.</title>
+	<script src="js/modernizr.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
 
-    <!-- Google Tag Manager -->
-    <script>(function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-NCBH444R');</script>
-    <!-- End Google Tag Manager -->
-
-
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="/images/favicon_io/site.webmanifest">
 </head>
 
-<body>
-    <!-- section home start -->
-    <div class="page page-resize overlay overlay-dark-40-video" id="home">
-        <!-- hero bg start -->
-        <div class="hero-fullscreen">
-            <!-- parallax container start -->
-            <div class="hero-bg parallax">
-                <!-- swiper container start -->
-                <div class="swiper-container">
-                    <!-- parallax bg start -->
-                    <div class="parallax-bg swiper-slide-parallax-bg" data-swiper-parallax="-23%"></div>
-                    <!-- parallax bg end -->
-                    <!-- swiper wrapper start -->
-                    <div class="swiper-wrapper">
-                        <!-- swiper slide 1 start -->
-                        <div class="swiper-slide"></div><!-- swiper slide 1 end -->
-                        <!-- swiper slide 2 start -->
-                        <div class="swiper-slide"></div><!-- swiper slide 2 end -->
-                        <!-- swiper slide 3 start -->
-                        <div class="swiper-slide"></div><!-- swiper slide 3 end -->
-                        <!-- swiper slide 4 start -->
-                        <div class="swiper-slide"></div><!-- swiper slide 4 end -->
-                    </div><!-- swiper wrapper end -->
-                </div><!-- swiper container end -->
-            </div><!-- parallax container end -->
-        </div><!-- hero bg end -->
-        <!-- intro wrapper start -->
-        <div class="intro-wrapper">
-            <!-- center container start -->
-            <div class="center-container">
-                <!-- center block start -->
-                <div class="center-block">
-                    <!-- section title start -->
-                    <h1>
-                        Sempre Chique
-                    </h1><!-- section title end -->
-                    <!-- play video button start -->
+<body class="color-scheme-neue">
+	<!-- Animated background -->
+	<canvas id="bg-canvas"></canvas>
+	<div class="bg-img"
+		style="width: 100%; height: 100%; position: fixed; background: #0c0a13 url(images/space-bg.jpg) no-repeat center center; background-size: 100% auto; ">
+	</div>
+	<!-- First screen -->
+	<div class="splash">
+		<div class="centered-unit">
+			<div class="container">
+				<!-- Main header -->
+				<p class="lead">
+					<img src="/images/logo.png" alt="">
+				</p>
 
-                    <!-- divider start -->
-                    <div class="inner-divider-ultra-half"></div><!-- divider end -->
-                    <!-- section TXT start -->
-                    <div class="signature signature-light">
-                        #Ontem sonho, hoje realidade
-                    </div><!-- section TXT end -->
+				<!-- Sub header -->
+				<p class="lead">A maior Conexão de Negocios.</p>
+
+				<!-- Countdown -->
+				<div class="countdown large" style="margin-top: 120px;">
+					<!-- Days -->
+					<div class="time days">
+						<div class="value">00</div>
+						<div class="unit">Dias</div>
+					</div>
+					<!-- Hours -->
+					<div class="time hours">
+						<div class="value">00</div>
+						<div class="unit">Horas</div>
+					</div>
+					<!-- Minutes -->
+					<div class="time minutes">
+						<div class="value">00</div>
+						<div class="unit">Minutos</div>
+					</div>
+					<!-- Seconds -->
+					<div class="time seconds">
+						<div class="value">00</div>
+						<div class="unit">Segundos</div>
+					</div>
+				</div>
 
 
-                    <h4 class="site-building">Site em construção</h4>
-                </div><!-- center block end -->
-            </div><!-- center container end -->
-        </div><!-- intro wrapper end -->
-        <!-- scroll indicator start -->
-        <div class="scroll-indicator">
-            <div class="scroll-indicator-wrapper">
-                <div class="scroll-line"></div>
-            </div>
-        </div><!-- scroll indicator end -->
-    </div><!-- section home end -->
-    <!-- header start -->
-    <nav id="header">
-        <!-- navigation start -->
-        <nav class="navbar navbar-fixed-top navbar-bg-switch" style="background-color: black;">
-            <!-- container start -->
-            <div class="container">
-                <div class="navbar-header">
-                    <!-- logo start -->
-                    <div class="logo">
-                        <a class="navbar-brand logo" href="#">
-                            <!-- logo light start -->
-                            <img alt="Logo" class="logo-light" src="img/logo.png" style="width: 120px;">
-                            <!-- logo light end -->
-                            <!-- logo dark start -->
-                            <img alt="Logo" class="logo-dark" src="img/logo.png" style="width: 120px;">
-                            <!-- logo dark end -->
-                            <!-- logo dark desktop start -->
-                            <img alt="Logo" class="logo-dark-desktop" src="img/logo.png" style="width: 120px;">
-                            <!-- logo dark desktop end -->
-                        </a>
-                    </div><!-- logo end -->
-                </div>
-                <!-- main navigation start -->
-                <div class="main-navigation">
-                    <div class="navbar-header">
-                        <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#navbar-collapse"
-                            data-toggle="collapse" type="button"><span class="sr-only">Toggle
-                                navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span
-                                class="icon-bar"></span></button>
-                    </div>
-                    <div class="collapse navbar-collapse" id="navbar-collapse">
-                        <!-- menu start -->
-                        <ul class="nav navbar-nav navbar-right">
-                            <li>
-                                <a class="page-scroll active" href="#home">Home</a>
-                            </li>
-                            <li>
-                                <a class="page-scroll" href="#about">+244 991765625</a>
-                            </li>
-                            <li>
-                                <a class="page-scroll" href="#works">geral@sempre-chique.com</a>
-                            </li>
-                        </ul><!-- menu end -->
-                    </div>
-                </div><!-- main navigation end -->
-            </div><!-- container end -->
-        </nav><!-- navigation end -->
-    </nav><!-- header end -->
+				<!-- Countdown end -->
+			</div>
+		</div>
+	</div>
 
 
-    <!-- loader start -->
-    <div class="template-loader">
-        <div id="loader"></div>
-    </div><!-- loader end -->
-    <!-- lightbox start -->
-    <div class="lightbox"></div><!-- lightbox end -->
-    <!-- scripts start -->
-    <script src="js/plugins.js">
-    </script>
-    <script src="js/fynex.js">
-    </script><!-- scripts end -->
+	<!-- JavaScripts -->
+	<script src="js/jquery.js"></script>
+	<script src="js/countdown.js"></script>
+	<script src="js/bezierCanvas.js"></script>
+	<script src="js/notifyMe.js"></script>
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NCBH444R" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+	<script type="text/javascript">
+		$().ready(function () {
 
+			// Activate countdownTimer plugin on a '.countdown' element
+			$(".countdown").countdownTimer({
+				// Set the end date for the countdown
+				endTime: new Date("November 26, 2023 11:13:00 UTC+0200")
+			});
+
+
+			// Activate notifyMe plugin on a '#notifyMe' element	
+			$("#notifyMe").notifyMe();
+
+
+			// Activate bezierCanvas plugin on a #bg-canvas element
+			$("#bg-canvas").bezierCanvas({
+				maxStyles: 1,
+				maxLines: 50,
+				lineSpacing: .07,
+				spacingVariation: .07,
+				colorBase: { r: 120, g: 100, b: 220 },
+				colorVariation: { r: 50, g: 50, b: 30 },
+				moveCenterX: 0,
+				moveCenterY: 0,
+				delayVariation: 3,
+				globalAlpha: 0.4,
+				globalSpeed: 30,
+			});
+
+
+
+
+			// Add handler on 'Scroll down to learn more' link
+			$().ready(function () {
+				$(".overlap .more").click(function (e) {
+					e.preventDefault();
+					$("body,html").animate({ scrollTop: $(window).height() });
+				});
+			});
+
+
+		});
+	</script>
 </body>
 
 </html>
